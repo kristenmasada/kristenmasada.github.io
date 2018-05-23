@@ -1,4 +1,4 @@
-#TODO
+# TODO
 * Change homepage to 'About' page.
 * Remove link to blog posts page.
   * Keep files with blog layout though, in case I want to make blog posts in the future.
