@@ -51,6 +51,7 @@ blockquote {
   a {
     font-size: 1.0em;
     border-bottom: none;
+    margin: 0 5px 35px;
   }
   selected {
     border-bottom: 1px solid #555;
@@ -61,7 +62,7 @@ blockquote {
     font-weight: 700;
     height: 50px;
     width: auto;
-    font-size: 2.2em;
+    font-size: 2.1em;
   }
   .logo-prompt {
     position: absolute;
