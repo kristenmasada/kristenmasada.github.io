@@ -6,10 +6,8 @@
 * Remove white line in title that appears on mobile.
 * Center text on 'About' page properly.
 
-* In 'Publications' section, add PDFs of ISMIR poster and ACM presentation (how to get audio integrated? maybe do link in PDF?).
-  * Also eventually add link to code for package + data + instructions on GitHub.
-  * Adding all of this might require some reformatting. I remember I tried to do this before and there were some weird spacing issues.
-* Add publication PDF's to this Git repo, rather than linking to them on another site. 
+* Eventually add link to code for package + data + instructions on GitHub and link to this on 'Publications' page.
+* Remove weird space between bullet points on 'Publications' page.
 
 * Add Google Analytics? so that page shows up in Google searches.
 
@@ -18,5 +16,5 @@
 
 * Might want to look at other people's GitHub Page repos for other ideas.
 
-#####How to host Jekyll locally
+##### How to host Jekyll locally
 `bundle exec jekyll serve`
