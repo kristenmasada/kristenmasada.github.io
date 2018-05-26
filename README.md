@@ -6,8 +6,6 @@
 * Remove white line in title that appears on mobile.
 * Center text on 'About' page properly.
 
-* Update 'About' page to say that I am a Master's student under Dr. Bunescu.
-
 * In 'Publications' section, add PDFs of ISMIR poster and ACM presentation (how to get audio integrated? maybe do link in PDF?).
   * Also eventually add link to code for package + data + instructions on GitHub.
   * Adding all of this might require some reformatting. I remember I tried to do this before and there were some weird spacing issues.
@@ -19,3 +17,6 @@
 * Would also like to add a Vim cheatsheet.
 
 * Might want to look at other people's GitHub Page repos for other ideas.
+
+#####How to host Jekyll locally
+`bundle exec jekyll serve`
