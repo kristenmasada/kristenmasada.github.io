@@ -42,3 +42,7 @@ _Last updated: 05/26/18_
 * `CTRL-W__` - 
 * `CTRL-W_|` - 
 * `CTRL-W_+` -
+
+---
+# Resources 
+1. [Wincent's Vim Screencasts](https://www.youtube.com/playlist?list=PLUrFrOjgnsbZJNPvZkhsTRuuhYk1ArO0p)
