@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Links 
+group: "navigation"
+order: 3
 ---
 * [GitHub](https://github.com/kristenmasada)
 * [LinkedIn](https://www.linkedin.com/in/kristen-masada-b50b01162)

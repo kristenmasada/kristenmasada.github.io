@@ -53,6 +53,10 @@ blockquote {
     border-bottom: none;
     margin: 0 5px 35px;
   }
+  .active {
+    border-bottom: 1px solid #555;
+    font-weight: 700;
+  }
   selected {
     border-bottom: 1px solid #555;
   }

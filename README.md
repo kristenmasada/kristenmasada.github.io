@@ -1,7 +1,5 @@
 # TODO
-* Add SEO plugin so that page shows up in Google searches.
-* Bold/underline title of page you're currently on in menu (maybe do this w/ JS).
-
+* Maybe add photo.
 * Would also like to add a Vim cheatsheet.
 
 * Eventually add link to code for package + data + instructions on GitHub and link to this on 'Publications' page.

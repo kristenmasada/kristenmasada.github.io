@@ -7,16 +7,25 @@
 		{% assign link = '/' %}
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
-
+        
 	<h1>
 		<a href="{{ link | prepend: site.baseurl }}">
 			{{ site.title }}
 		</a>
 	</h1>
 
-	<a href="{{ '/index.html' | prepend: site.baseurl }}">About</a>
-	<a href="{{ '/publications' | prepend: site.baseurl }}">Publications</a>
-       	<a href="{{ '/links' | prepend: site.baseurl }}">Links</a>
+        <!--set up navigation bar so that title of current page is highlighted-->
+        {% assign group = 'navigation' %}
+        {% assign sorted_pages = site.pages | sort: "order" %}
+        {% for node in sorted_pages %}
+                {% if group == node.group %}
+                        {% if page.url == node.url %}
+                          <a href="{{node.url}}" class="active">{{node.title}}</a>   
+                        {% else %}
+                          <a href="{{node.url}}">{{node.title}}</a>   
+                        {% endif %}
+                {% endif %}
+        {% endfor %}
 
 
 </aside>
