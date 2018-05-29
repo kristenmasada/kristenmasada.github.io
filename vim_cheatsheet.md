@@ -5,7 +5,7 @@ title: Vim Cheatsheet
 
 # Vim Cheatsheet
 
-_Last updated: 05/28/18_
+_Last updated: 05/29/18_
 
 ### File Navigation
 
@@ -25,6 +25,16 @@ _Last updated: 05/28/18_
 * `gi` - preview in horizontal split.
 * `s` - open in vertical split.
 * `gs` - preview in vertical split.
+
+
+### Movement
+* `[number]{j,k}` - move <number> lines down or up.
+* `CTRL-o` - go backward in jump list (go to previous location where cursor has been).
+* `CTRL-i` - go forward in jump list.
+* `H` - move cursor to top of file (high).
+* `M` - move to middle of file (medium).
+* `L` - move to bottom of file (low).
+* `{` and `}` - jump between blank lines upward and downward in file.
 
 
 ### Splits
