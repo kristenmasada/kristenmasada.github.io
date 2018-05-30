@@ -5,7 +5,7 @@ title: Vim Cheatsheet
 
 # Vim Cheatsheet
 
-_Last updated: 05/29/18_
+_Last updated: 05/30/18_
 
 ### File Navigation
 
@@ -20,11 +20,15 @@ _Last updated: 05/29/18_
 #### [NERDTree](https://github.com/scrooloose/nerdtree)
 * `:NERDTree` - open new NERDTree window for current directory.
 
-##### File nodes
+##### File Nodes
 * `i` - open selected file in horizontal split.
 * `gi` - preview in horizontal split.
 * `s` - open in vertical split.
 * `gs` - preview in vertical split.
+
+
+### Line Numbers
+* `<Leader>r` - Cycle between relative line numbers, line numbers, and no line numbers.
 
 
 ### Movement
@@ -35,6 +39,8 @@ _Last updated: 05/29/18_
 * `M` - move to middle of file (medium).
 * `L` - move to bottom of file (low).
 * `{` and `}` - jump between blank lines upward and downward in file.
+* `CTRL-d` and `CTRL-u` - jump downward and upward in large chunks. 
+* `CTRL-e` and `CTRL-y` - scroll downwar and upward without moving cusor. 
 
 
 ### Splits
