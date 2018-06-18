@@ -5,7 +5,7 @@ title: Vim Cheatsheet
 
 # Vim Cheatsheet
 
-_Last updated: 05/30/18_
+_Last updated: 06/02/18_
 
 ### File Navigation
 
@@ -41,6 +41,30 @@ _Last updated: 05/30/18_
 * `{` and `}` - jump between blank lines upward and downward in file.
 * `CTRL-d` and `CTRL-u` - jump downward and upward in large chunks. 
 * `CTRL-e` and `CTRL-y` - scroll downwar and upward without moving cusor. 
+
+
+### Regular Expressions
+* `*` - 0 or more (don't escape!).
+* `\+` - 1 or more (need to escape).
+* `\{x,y}` - ? (only escape opening bracket).
+* `\( \)` - (escape both parens).
+* note: to avoid dealing with weird escaping inconsistencies above, turn on 'very magic' mode (add `\v` after `/` when turning on search), so that everything is considered to be special unless escaped. Can map this so that it is always turned on when using search.
+
+
+##### Lookahead/lookbehind
+* `\zs` - match starts at this point (use for look behind).
+* `\ze` - match ends at this point (use for look ahead). 
+
+
+##### Case tricks
+* `\C` - force search to be case sensitive.
+* `\c` - force search to be case insensitive.
+* note: I have `ignorecase` and `smartcase` turned on, meaning case is ignored if search term is all lower case, but case is considered when search term contains upper case letters. 
+* `\u` - uppercase next letter in replacement. 
+* `\l` - lowercase ".
+* `\U` - uppercase replacement from here on (until \e or \E).
+* `\L` - lowercase ".
+* note: `:h regex` is very useful.
 
 
 ### Splits

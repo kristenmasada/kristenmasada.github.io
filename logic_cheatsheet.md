@@ -13,3 +13,5 @@ _Last updated: 05/28/18_
 * `SPACE` - play.
 * `ENTER` - jump cursor to start of song.
 * `l` - loop current track.
+* `⌘2` - open mixer in separate window.
+* `⌘` - hold down to use command tool.
