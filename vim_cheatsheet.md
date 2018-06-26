@@ -5,9 +5,13 @@ title: Vim Cheatsheet
 
 # Vim Cheatsheet
 
-_Last updated: 06/02/18_
+_Last updated: 06/26/18_
 
-### File Navigation
+## Basic Text Manipulation
+* `yy` or `Y` - copy a line.
+
+
+## File Navigation
 
 #### [Command-T](https://github.com/wincent/command-t)
 * `<Leader>t` - open Command-T.
@@ -27,11 +31,11 @@ _Last updated: 06/02/18_
 * `gs` - preview in vertical split.
 
 
-### Line Numbers
+## Line Numbers
 * `<Leader>r` - Cycle between relative line numbers, line numbers, and no line numbers.
 
 
-### Movement
+## Movement
 * `[number]{j,k}` - move <number> lines down or up.
 * `CTRL-o` - go backward in jump list (go to previous location where cursor has been).
 * `CTRL-i` - go forward in jump list.
@@ -43,7 +47,7 @@ _Last updated: 06/02/18_
 * `CTRL-e` and `CTRL-y` - scroll downwar and upward without moving cusor. 
 
 
-### Regular Expressions
+## Regular Expressions
 * `*` - 0 or more (don't escape!).
 * `\+` - 1 or more (need to escape).
 * `\{x,y}` - ? (only escape opening bracket).
@@ -67,7 +71,7 @@ _Last updated: 06/02/18_
 * note: `:h regex` is very useful.
 
 
-### Splits
+## Splits
 
 ##### General
 * `:sp`, `:split` - open horizontal split.
@@ -88,7 +92,7 @@ _Last updated: 06/02/18_
 ##### Movement
 * `CTRL-W_{H,J,K,L}` - move split to left/bottom/top/right.
 
-### Tabs
+## Tabs
 * `CTRL-W_T` - convert current window/split to a tab.
 * `:tabe [file]` - open new tab. if file provided, opens file in tab.
 * `gt` and `gT` - go to next and previous tabs.
