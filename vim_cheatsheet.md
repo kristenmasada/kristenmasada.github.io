@@ -7,7 +7,16 @@ title: Vim Cheatsheet
 
 _Last updated: 06/26/18_
 
-## Basic Text Manipulation
+## Text Editing
+
+* `i` - insert text behind cursor (enter insertion mode).
+* `A` - append text (i.e. insert text at end of current line).
+* `x` - delete character under cursor.
+* `dw`, `d2w`, `de`, `d$` - delete word (up to next word), delete two words, delete up to end of word, delete up to end of line (clear line), etc.
+* `dd` - delete a line.
+* `w` - go to next word.
+* `e` - go to end of word.
+* `0` - go to start of line.
 * `yy` or `Y` - copy a line.
 
 
@@ -99,4 +108,6 @@ _Last updated: 06/26/18_
 
 ---
 # Resources 
-1. [Wincent's Vim Screencasts](https://www.youtube.com/playlist?list=PLUrFrOjgnsbZJNPvZkhsTRuuhYk1ArO0p)
+1. `vimtutor`
+2. [Wincent's Vim Screencasts](https://www.youtube.com/playlist?list=PLUrFrOjgnsbZJNPvZkhsTRuuhYk1ArO0p)
+
