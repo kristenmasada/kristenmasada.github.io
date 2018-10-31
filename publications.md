@@ -5,7 +5,7 @@ group: "navigation"
 order: 2
 ---
 
-* **Chord Recognition in Symbolic Music: A Segmental CRF Model, Segment-Level Features, and Comparative Evaluations on Classical and Popular Music**. Kristen Masada and Razvan Bunescu. Transactions of the International Society for Music Information Retrieval (TISMIR), November 2017 (to appear).
+* **Chord Recognition in Symbolic Music: A Segmental CRF Model, Segment-Level Features, and Comparative Evaluations on Classical and Popular Music**. Kristen Masada and Razvan Bunescu. Transactions of the International Society for Music Information Retrieval (TISMIR), 2018 (to appear).
   * [PDF](./publications/tismir18/tismir18.pdf)
   * [Code](https://github.com/kristenmasada/chord_recognition_semi_crf)
 * **Chord Recognition in Symbolic Music using semi-Markov Conditional Random Fields**. Kristen Masada and Razvan Bunescu. Proceedings of the 18th International Society for Music Information Retrieval (ISMIR) Conference, Suzhou, China, October 2017. 
